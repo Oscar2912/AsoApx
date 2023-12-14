@@ -23,7 +23,7 @@ public class TestMapper {
         contactDTO1.setCel(Long.parseLong("3003004444"));
         contactDTOList.add(contactDTO);
         contactDTOList.add(contactDTO1);
-        List<String> listaPrueba = Arrays.asList("Juan,300333,02-03-2023", "Maria,300444,02-03-a2023");
+        List<String> listaPrueba = Arrays.asList("Juan,300333,02-03-2023", "Maria,300444,02-03-2023");
         requestDTO.setContact(contactDTOList);
         requestDTO.setRequest(listaPrueba);
 

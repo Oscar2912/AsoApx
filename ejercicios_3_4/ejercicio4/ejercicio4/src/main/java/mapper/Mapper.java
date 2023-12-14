@@ -28,12 +28,12 @@ public class Mapper {
             ResponseDTO responseDTO = new ResponseDTO();
             DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
 
-            List<String> prueba = requestDTO.getRequest();
-            String[] datos = prueba.get(i).toString().split(",");
+            List<String> listRequestDTO = requestDTO.getRequest();
+            String[] dataRequestDTO = listRequestDTO.get(i).toString().split(",");
             try {
-                responseDTO.setNombre(datos[0]);
-                responseDTO.setNumero(Integer.parseInt(datos[1]));
-                responseDTO.setFecha(dateFormat.parse(datos[2]));
+                responseDTO.setNombre(dataRequestDTO[0]);
+                responseDTO.setNumero(Integer.parseInt(dataRequestDTO[1]));
+                responseDTO.setFecha(dateFormat.parse(dataRequestDTO[2]));
                 responseDTO.setEmail(contactDTO.getEmail());
                 responseDTO.setCel(contactDTO.getCel());
             }catch (ParseException e){
