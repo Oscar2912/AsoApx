@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ejercicio6/ejercicio6/lib/ormlite-jdbc-6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ejercicio6/ejercicio6/lib/ormlite-core-6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ejercicio6/ejercicio6/lib/h2-2.2.224.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
